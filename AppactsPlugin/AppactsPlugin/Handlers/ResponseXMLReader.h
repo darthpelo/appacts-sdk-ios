@@ -11,7 +11,7 @@
 #import "WebServiceResponseType.h"
 
 
-@interface ResponseXMLReader : NSObject {
+@interface ResponseXMLReader : NSObject <NSXMLParserDelegate> {
     int webServiceResponseType;
     NSMutableString *currentProperty;
 }

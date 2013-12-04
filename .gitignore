@@ -17,3 +17,7 @@ xcuserdata
 *.moved-aside
 
 Appacts.xcworkspace/xcshareddata/Appacts.xccheckout
+
+.DS_Store
+
+AppactsPlugin/.DS_Store

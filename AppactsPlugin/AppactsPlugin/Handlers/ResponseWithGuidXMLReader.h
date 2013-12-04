@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "WebServiceResponseType.h"
-#import "Utils.h";
+#import "Utils.h"
 
-@interface ResponseWithGuidXMLReader : NSObject {
+@interface ResponseWithGuidXMLReader : NSObject <NSXMLParserDelegate> {
     CFUUIDRef webServiceResponseGuid;
     int webServiceResponseType;
     NSMutableString *currentProperty;
