@@ -15,3 +15,5 @@ build/
 !default.perspectivev3
 xcuserdata
 *.moved-aside
+
+Appacts.xcworkspace/xcshareddata/Appacts.xccheckout
